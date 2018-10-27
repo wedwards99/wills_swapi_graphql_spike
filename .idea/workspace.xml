@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="475fad94-65c7-473e-ba39-7ee757352028" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,15 +50,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="2369" />
-          <entry key="md" value="539" />
-          <entry key="txt" value="203" />
+          <entry key="md" value="546" />
+          <entry key="txt" value="226" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="2370" />
-          <entry key="Markdown" value="538" />
-          <entry key="PLAIN_TEXT" value="203" />
+          <entry key="Markdown" value="545" />
+          <entry key="PLAIN_TEXT" value="226" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -70,9 +70,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor relative-caret-position="377">
-                <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="68">
+                <caret line="4" column="200" selection-start-line="4" selection-start-column="200" selection-end-line="4" selection-end-column="200" />
               </first_editor>
               <second_editor />
             </state>
@@ -148,6 +148,26 @@
     <option name="width" value="3530" />
     <option name="height" value="1970" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>BadExpressionStatementJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -213,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.All Tests">
+  <component name="RunManager" selected="Node.js.Star Wars API GraphQL Server">
     <configuration name="Star Wars API GraphQL Server" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/src">
       <method v="2" />
     </configuration>
@@ -329,14 +349,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540647806986</updated>
-      <workItem from="1540647808222" duration="27114000" />
+      <workItem from="1540647808222" duration="27868000" />
     </task>
+    <task id="LOCAL-00001" summary="Add readme.">
+      <created>1540680441216</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540680441216</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Readme changes.">
+      <created>1540680639700</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540680639700</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Readme changes.">
+      <created>1540680698805</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540680698805</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_the_swapi_makeSwApiRequest_functions_returns_right_content_with_single_film_URL - 2018.10.27 at 16h 45m 34s.xml">
-      <configuration name="Test the swapi makeSwApiRequest functions.returns right content with single film URL" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="test_testSwApiUtils_js - 2018.10.27 at 16h 48m 13s.xml">
       <configuration name="test\testSwApiUtils.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
@@ -364,26 +403,31 @@
     <history-entry file="All_Tests - 2018.10.27 at 17h 25m 55s.xml">
       <configuration name="All Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="All_Tests - 2018.10.27 at 17h 46m 27s.xml">
+      <configuration name="All Tests" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27114000" />
+    <option name="totallyTimeSpent" value="27868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="72" y="28" width="1765" height="985" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="DB Browser" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25307557" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25307557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5002929" side_tool="true" weight="0.32932693" />
+      <window_info anchor="bottom" id="Messages" weight="0.32932693" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997071" visible="true" weight="0.38822114" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4997071" visible="true" weight="0.38822114" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39903846" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -399,6 +443,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add readme." />
+    <MESSAGE value="Readme changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme changes." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/chai-as-promised/lib/chai-as-promised.js">
@@ -469,9 +518,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="377">
-            <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="4" column="200" selection-start-line="4" selection-start-column="200" selection-end-line="4" selection-end-column="200" />
           </first_editor>
           <second_editor />
         </state>
