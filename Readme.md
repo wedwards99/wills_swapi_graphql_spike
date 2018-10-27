@@ -1,4 +1,4 @@
-####Introduction
+## Introduction
 
 This is a simple NodeJS project written on JetBrains Webstorm to spike out GraphQL with [https://swapi.co/](https://swapi.co/) data with the applicable many-to-many relationships. I also made it to use [Sinon](https://github.com/sinonjs/sinon) for mocking promise wrapped [request](https://github.com/request/request) responses in the test modules.
 
@@ -31,7 +31,7 @@ Show a list of the films and their characters:
 }
 ```
 
-####Todo
+#### Todo
 
 - Lists have pagination in swapi, this needs to be added so the list variants display everything.
 - Test coverage is not 100%, that needs to be improved.
