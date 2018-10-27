@@ -1,0 +1,32 @@
+npm install express
+npm install graphql express-graphql
+npm install request
+npm install mocha
+npm install chai
+npm install istanbul
+npm install sinon
+npm install chai-as-promised
+
+https://blog.jetbrains.com/webstorm/2013/11/webstorm-7-0-2-is-available/ // Plus youtube video including adding languages & Frameworks -> javascript -> lib definitions for node, mocha, etc.
+
+Some graphical queries
+{
+  ship(id: 10) {
+    id
+    name
+    films {
+      title
+      release_date
+    }
+  }
+}
+
+{
+  film_list {
+    title
+    release_date
+    people {
+      name
+    }
+  }
+}
