@@ -31,7 +31,7 @@ Show a list of the films and their characters:
 }
 ```
 
-#### Todo
+## Todo
 
 - Lists have pagination in swapi, this needs to be added so the list variants display everything.
 - Test coverage is not 100%, that needs to be improved.
