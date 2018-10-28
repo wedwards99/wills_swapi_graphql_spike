@@ -1,8 +1,10 @@
 ## Introduction
 
-This is a simple NodeJS project written on JetBrains Webstorm to spike out GraphQL with [https://swapi.co/](https://swapi.co/) data with the applicable many-to-many relationships. I also made it to use [Sinon](https://github.com/sinonjs/sinon) for mocking promise wrapped [request](https://github.com/request/request) responses in the test modules.
+This is a simple NodeJS project written on JetBrains Webstorm to spike out GraphQL with [https://swapi.co/](https://swapi.co/) data with the applicable many-to-many relationships. I also made it to show and test [Sinon](https://github.com/sinonjs/sinon) for mocking promise wrapped [request](https://github.com/request/request) responses in the test modules.
 
-The server is started by running &#39;app&#39; and it&#39;ll start on port 4000 by default.  Connecting a browser to [http://localhost:4000/graphql](http://localhost:4000/graphql) will show the GraphiQL interface, some sample queries are:
+For the dev I'm currently using Webstorm 2018.2.5 and Node 8.9
+
+The server is started by running &#39;app.js&#39; and it&#39;ll start on port 4000 by default.  Connecting a browser to [http://localhost:4000/graphql](http://localhost:4000/graphql) will show the GraphiQL interface, some sample queries are:
 
 Show the films the Millennium Falcon was in:
 
