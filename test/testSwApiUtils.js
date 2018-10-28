@@ -40,36 +40,30 @@ describe('Test the swapi makeSwApiRequest functions', () => {
     it('fails with invalid status code', () => {
         const url = 'httpz://swswswswsw/ppp/films/999';
         sinon.stub(request, 'get').withArgs(url).yields(null, failResp, '');
-        return expect(swApiUtils.makeSwApiRequest(url))
-            .to.be.eventually.rejected;
+        return expect(swApiUtils.makeSwApiRequest(url)).to.be.eventually.rejected;
     });
     it('returns right title content with single film URL', () => {
         const url = 'httpz://swswswswsw/ppp/films/999';
         sinon.stub(request, 'get').withArgs(url).yields(null, okResp, JSON.stringify(filmBody));
-        return expect(swApiUtils.makeSwApiRequest(url))
-            .to.eventually.have.property('title')
-            .equal(filmBody.title);
+        return expect(swApiUtils.makeSwApiRequest(url)).to.eventually.have.property('title').equal(filmBody.title);
     });
     it('returns right id content with single film URL', () => {
         const url = 'httpz://swswswswsw/ppp/films/999';
         sinon.stub(request, 'get').withArgs(url).yields(null, okResp, JSON.stringify(filmBody));
-        return expect(swApiUtils.makeSwApiRequest(url))
-            .to.eventually.have.property('id')
-            .equal('999');
+        return expect(swApiUtils.makeSwApiRequest(url)).to.eventually.have.property('id').equal('999');
     });
     it('returns right length with array of film URLs', () => {
         const urls = ['httpz://swswswswsw/ppp/films/999'];
         sinon.stub(request, 'get').withArgs(urls[0]).yields(null, okResp, JSON.stringify(filmsBody));
-        return expect(swApiUtils.makeSwApiRequests(urls))
-            .to.eventually.have.length(1);
+        return expect(swApiUtils.makeSwApiRequests(urls)).to.eventually.have.length(1);
     });
     it('returns right content with array of film URLs', (done) => {
         const urls = ['httpz://swswswswsw/ppp/films/999'];
         sinon.stub(request, 'get').withArgs(urls[0]).yields(null, okResp, JSON.stringify(filmBody));
         swApiUtils.makeSwApiRequests(urls).then((results) => {
                 results.forEach(result => {
-                    expect(result['id']).to.equal('999');
-                    expect(result['title']).to.equal(filmBody.title);
+                    expect(result).to.have.property('id').to.equal('999');
+                    expect(result).to.have.property('title').to.equal(filmBody.title);
                 });
                 done();
             }

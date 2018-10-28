@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="475fad94-65c7-473e-ba39-7ee757352028" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testSwApiInteg.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/testSwApiInteg.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,7 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/swapi_graphql$Test_the_swapi_http_GET_functions_fails_with_invalid_status_code.dat" NAME="Test the swapi http GET functions.fails with invalid status code Coverage Results" MODIFIED="1540668367549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/swapi_graphql$test_testQuery_js.dat" NAME="test\testQuery.js Coverage Results" MODIFIED="1540674418631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/swapi_graphql$All_Tests.dat" NAME="All Tests Coverage Results" MODIFIED="1540733330236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/swapi_graphql$All_Tests.dat" NAME="All Tests Coverage Results" MODIFIED="1540736268318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/swapi_graphql$testSwApiUtils_js.dat" NAME="testSwApiUtils.js Coverage Results" MODIFIED="1540658037928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
@@ -52,16 +51,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="3273" />
+          <entry key="js" value="3451" />
           <entry key="md" value="613" />
-          <entry key="txt" value="322" />
+          <entry key="txt" value="330" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="3274" />
+          <entry key="JavaScript" value="3452" />
           <entry key="Markdown" value="612" />
-          <entry key="PLAIN_TEXT" value="322" />
+          <entry key="PLAIN_TEXT" value="330" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -74,11 +73,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/testSwApiInteg.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="85" column="65" selection-start-line="85" selection-start-column="65" selection-end-line="85" selection-end-column="65" />
+            <state relative-caret-position="969">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
         </entry>
@@ -88,18 +87,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="22" selection-start-line="17" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="375">
-                <caret line="39" column="87" selection-start-line="39" selection-start-column="87" selection-end-line="39" selection-end-column="87" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -179,9 +166,9 @@
         <option value="$PROJECT_DIR$/test/testlint.js" />
         <option value="$PROJECT_DIR$/test/testSwApiUtils.js" />
         <option value="$PROJECT_DIR$/src/schema/swApiUtils.js" />
-        <option value="$PROJECT_DIR$/test/testSwApiInteg.js" />
         <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/test/testSwApiInteg.js" />
       </list>
     </option>
   </component>
@@ -409,7 +396,7 @@
       <workItem from="1540683926273" duration="330000" />
       <workItem from="1540684271027" duration="407000" />
       <workItem from="1540722832211" duration="9391000" />
-      <workItem from="1540733499249" duration="669000" />
+      <workItem from="1540733499249" duration="2568000" />
     </task>
     <task id="LOCAL-00001" summary="Add readme.">
       <created>1540680441216</created>
@@ -467,56 +454,63 @@
       <option name="project" value="LOCAL" />
       <updated>1540734027981</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fix readme typo.">
+      <created>1540734221167</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1540734221167</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_testSwApiInteg_js - 2018.10.28 at 08h 12m 29s.xml">
+    <history-entry file="test_testSwApiInteg_js - 2018.10.28 at 08h 51m 33s.xml">
       <configuration name="test\testSwApiInteg.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_testSwApiInteg_js - 2018.10.28 at 08h 12m 38s.xml">
+    <history-entry file="test_testSwApiInteg_js - 2018.10.28 at 08h 53m 07s.xml">
       <configuration name="test\testSwApiInteg.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_testSwApiInteg_js - 2018.10.28 at 08h 21m 45s.xml">
+    <history-entry file="test_testSwApiInteg_js - 2018.10.28 at 08h 53m 35s.xml">
       <configuration name="test\testSwApiInteg.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_testSwApiInteg_js - 2018.10.28 at 08h 22m 22s.xml">
+    <history-entry file="test_testSwApiInteg_js - 2018.10.28 at 08h 54m 24s.xml">
       <configuration name="test\testSwApiInteg.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_testSwApiInteg_js - 2018.10.28 at 08h 22m 55s.xml">
+    <history-entry file="test_testSwApiInteg_js - 2018.10.28 at 08h 55m 12s.xml">
       <configuration name="test\testSwApiInteg.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_testSwApiInteg_js - 2018.10.28 at 08h 23m 53s.xml">
+    <history-entry file="test_testSwApiInteg_js - 2018.10.28 at 08h 58m 57s.xml">
       <configuration name="test\testSwApiInteg.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_testSwApiInteg_js - 2018.10.28 at 08h 24m 10s.xml">
+    <history-entry file="test_testSwApiInteg_js - 2018.10.28 at 09h 00m 09s.xml">
       <configuration name="test\testSwApiInteg.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_testSwApiInteg_js - 2018.10.28 at 08h 24m 56s.xml">
+    <history-entry file="test_testSwApiInteg_js - 2018.10.28 at 09h 00m 53s.xml">
       <configuration name="test\testSwApiInteg.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_testSwApiInteg_js - 2018.10.28 at 08h 27m 49s.xml">
+    <history-entry file="test_testSwApiInteg_js - 2018.10.28 at 09h 01m 59s.xml">
       <configuration name="test\testSwApiInteg.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="All_Tests - 2018.10.28 at 08h 28m 50s.xml">
-      <configuration name="All Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test_testSwApiInteg_js - 2018.10.28 at 09h 11m 44s.xml">
+      <configuration name="test\testSwApiInteg.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39410000" />
+    <option name="totallyTimeSpent" value="41309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="72" y="28" width="1765" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2556391" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2556391" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49913245" weight="0.38822114" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49913245" visible="true" weight="0.38822114" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39903846" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -524,7 +518,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49971083" visible="true" weight="0.32932693" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49971083" weight="0.32932693" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50086755" side_tool="true" weight="0.38822114" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32932693" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -545,7 +539,8 @@
     <MESSAGE value="No real changes." />
     <MESSAGE value="Add some more tests, esp round integration for queries." />
     <MESSAGE value="Update readme with version info." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update readme with version info." />
+    <MESSAGE value="Fix readme typo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix readme typo." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/chai-as-promised/lib/chai-as-promised.js">
@@ -579,13 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/testSwApiInteg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="85" column="65" selection-start-line="85" selection-start-column="65" selection-end-line="85" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/schema/querys.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
@@ -614,6 +602,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="649">
+            <caret line="39" column="87" selection-start-line="39" selection-start-column="87" selection-end-line="39" selection-end-column="87" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -621,13 +619,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="375">
-            <caret line="39" column="87" selection-start-line="39" selection-start-column="87" selection-end-line="39" selection-end-column="87" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/test/testSwApiInteg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
