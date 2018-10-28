@@ -1,16 +1,25 @@
+const sinon = require('sinon');
 const request = require('request');
 const expect = require('chai').expect;
 
-const baseUrl = 'https://swapi.co/api';
-
-describe('Smoke test the mocha/chai install', function () {
-    it('returns luke', function (done) {
-        request.get({url: baseUrl + '/people/1/'},
+describe('Smoke test the mocha/chai/sinon install', () => {
+    beforeEach(() => {
+    });
+    afterEach(() => {
+        request.get.restore();
+    });
+    it('make a stubbed request', (done) => {
+        const url = 'https://swapi.co/api/people/1/';
+        const name = 'Luke Skywalker';
+        const hair = 'blond';
+        const stub = sinon.stub(request, 'get');
+        stub.withArgs(url).yields(null, {statusCode: 200, headers: {'content-type': 'application/json'}}, JSON.stringify({name: name, hair_color: hair}));
+        request.get(url,
             function (error, response, body) {
                 const bodyObj = JSON.parse(body);
-                expect(bodyObj.name).to.equal('Luke Skywalker');
-                expect(bodyObj.hair_color).to.equal('blond');
-                expect(response.statusCode).to.equal(200);
+                expect(bodyObj).to.have.property('name').equal(name);
+                expect(bodyObj).to.have.property('hair_color').equal(hair);
+                expect(response).to.have.property('statusCode').equal(200);
                 done();
             });
     });
