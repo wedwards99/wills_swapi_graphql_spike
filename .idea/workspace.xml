@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="475fad94-65c7-473e-ba39-7ee757352028" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,7 +38,7 @@
         <counts>
           <entry key="js" value="25" />
           <entry key="json" value="2" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
@@ -46,22 +46,22 @@
         <counts>
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="25" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="3273" />
-          <entry key="md" value="546" />
-          <entry key="txt" value="289" />
+          <entry key="md" value="613" />
+          <entry key="txt" value="322" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="3274" />
-          <entry key="Markdown" value="545" />
-          <entry key="PLAIN_TEXT" value="289" />
+          <entry key="Markdown" value="612" />
+          <entry key="PLAIN_TEXT" value="322" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -83,11 +83,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="22" selection-start-line="17" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="375">
+                <caret line="39" column="87" selection-start-line="39" selection-start-column="87" selection-end-line="39" selection-end-column="87" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -163,13 +175,13 @@
         <option value="$PROJECT_DIR$/test/testtest.js" />
         <option value="$PROJECT_DIR$/src/schema/querys.js" />
         <option value="$PROJECT_DIR$/test/testQuery.js" />
-        <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/notes.txt" />
         <option value="$PROJECT_DIR$/test/testlint.js" />
         <option value="$PROJECT_DIR$/test/testSwApiUtils.js" />
         <option value="$PROJECT_DIR$/src/schema/swApiUtils.js" />
         <option value="$PROJECT_DIR$/test/testSwApiInteg.js" />
         <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/Readme.md" />
       </list>
     </option>
   </component>
@@ -397,7 +409,7 @@
       <workItem from="1540683926273" duration="330000" />
       <workItem from="1540684271027" duration="407000" />
       <workItem from="1540722832211" duration="9391000" />
-      <workItem from="1540733499249" duration="122000" />
+      <workItem from="1540733499249" duration="669000" />
     </task>
     <task id="LOCAL-00001" summary="Add readme.">
       <created>1540680441216</created>
@@ -441,7 +453,21 @@
       <option name="project" value="LOCAL" />
       <updated>1540733560908</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add some more tests, esp round integration for queries.">
+      <created>1540733630035</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1540733630035</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update readme with version info.">
+      <created>1540734027981</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1540734027981</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -477,7 +503,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38863000" />
+    <option name="totallyTimeSpent" value="39410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="72" y="28" width="1765" height="985" extended-state="0" />
@@ -498,7 +524,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49971083" weight="0.32932693" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49971083" visible="true" weight="0.32932693" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50086755" side_tool="true" weight="0.38822114" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32932693" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -518,7 +544,8 @@
     <MESSAGE value="Readme changes." />
     <MESSAGE value="No real changes." />
     <MESSAGE value="Add some more tests, esp round integration for queries." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add some more tests, esp round integration for queries." />
+    <MESSAGE value="Update readme with version info." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update readme with version info." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/chai-as-promised/lib/chai-as-promised.js">
@@ -530,16 +557,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="200" selection-start-line="4" selection-start-column="200" selection-end-line="4" selection-end-column="200" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -601,6 +618,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" selection-start-line="17" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="375">
+            <caret line="39" column="87" selection-start-line="39" selection-start-column="87" selection-end-line="39" selection-end-column="87" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

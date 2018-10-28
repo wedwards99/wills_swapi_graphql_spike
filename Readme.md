@@ -37,5 +37,5 @@ Show a list of the films and their characters:
 
 - Lists have pagination in swapi, this needs to be added so the list variants display everything.
 - Test coverage is not 100%, that needs to be improved.
-- Not all many-to-many relationships are modeled, all types (starships, people, planest, species and vehicles) have edges to the films they appear in, and films have the edges to the people that appeared in them, but others need to added, e.g. the planet a person was from, vehicles that appeared in a film, etc.
+- Not all many-to-many relationships are modeled, all types (starships, people, planets, species and vehicles) have edges to the films they appear in, and films have the edges to the people that appeared in them, but others need to added, e.g. the planet a person was from, vehicles that appeared in a film, etc.
 - Right now everything is pushed, all the node modules, etc. that's a bit clumsy and needs to be straightened out.  
