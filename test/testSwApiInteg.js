@@ -70,11 +70,10 @@ describe('Check starships integration', function () {
         stub.withArgs(film3Url).yields(null, okResp, JSON.stringify(film3RespBody));
         stub.withArgs(film4Url).yields(null, okResp, JSON.stringify(film4RespBody));
         graphql(schema, '{ship(id: 10) {id name model manufacturer films {title release_date}}}', global).then((result) => {
-            console.log('data=', JSON.stringify(result.data));
-            expect(result['data']['ship']['id']).to.equal('10');
-            expect(result['data']['ship']['name']).to.equal(singleStarShipRespBody['name']);
-            expect(result['data']['ship']['model']).to.equal(singleStarShipRespBody['model']);
-            expect(result['data']['ship']['manufacturer']).to.equal(singleStarShipRespBody['manufacturer']);
+            expect(result).to.have.property('data').to.have.property('ship').to.have.property('id').equal('10');
+            expect(result).to.have.property('data').to.have.property('ship').to.have.property('name').equal(singleStarShipRespBody['name']);
+            expect(result).to.have.property('data').to.have.property('ship').to.have.property('model').equal(singleStarShipRespBody['model']);
+            expect(result).to.have.property('data').to.have.property('ship').to.have.property('manufacturer').equal(singleStarShipRespBody['manufacturer']);
             done();
         }).catch((err) => {
             console.log(err);
@@ -92,10 +91,11 @@ describe('Check starships integration', function () {
         stub.withArgs(film3Url).yields(null, okResp, JSON.stringify(film3RespBody));
         stub.withArgs(film4Url).yields(null, okResp, JSON.stringify(film4RespBody));
         graphql(schema, '{ship_list {id name model manufacturer films {title release_date}}}', global).then((result) => {
-            expect(result['data']['ship_list'][0]['id']).to.equal('10');
-            expect(result['data']['ship_list'][0]['name']).to.equal(singleStarShipRespBody['name']);
-            expect(result['data']['ship_list'][0]['model']).to.equal(singleStarShipRespBody['model']);
-            expect(result['data']['ship_list'][0]['manufacturer']).to.equal(singleStarShipRespBody['manufacturer']);
+            expect(result).to.have.property('data').to.have.property('ship_list').to.have.length(1);
+            expect(result['data']['ship_list'][0]).to.have.property('id').to.equal('10');
+            expect(result['data']['ship_list'][0]).to.have.property('name').to.equal(singleStarShipRespBody['name']);
+            expect(result['data']['ship_list'][0]).to.have.property('model').to.equal(singleStarShipRespBody['model']);
+            expect(result['data']['ship_list'][0]).to.have.property('manufacturer').to.equal(singleStarShipRespBody['manufacturer']);
             done();
         }).catch((err) => {
             console.log(err);
