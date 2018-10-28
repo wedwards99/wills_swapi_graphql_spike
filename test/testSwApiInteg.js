@@ -7,13 +7,13 @@ const testData = require('./data/integTestData');
 
 const okResp = {statusCode: 200, headers: {'content-type': 'application/json'}};
 
-describe('Check starships integration', function () {
+describe('Check starships integration', () => {
     beforeEach(() => {
     });
     afterEach(() => {
         request.get.restore();
     });
-    it('test the single starship integration', function (done) {
+    it('test the single starship integration', done => {
         const singleStarShipUrl = 'https://swapi.co/api/starships/10';
         let stub = sinon.stub(request, 'get');
         stub.withArgs(singleStarShipUrl).yields(null, okResp, JSON.stringify(testData.singleStarShipRespBody));
@@ -35,7 +35,7 @@ describe('Check starships integration', function () {
         });
     });
 
-    it('test the starship list integration', function (done) {
+    it('test the starship list integration', done => {
         const multiStarShipsUrl = 'https://swapi.co/api/starships';
         let stub = sinon.stub(request, 'get');
         stub.withArgs(multiStarShipsUrl).yields(null, okResp, JSON.stringify(testData.multiStarShipRespBody));
@@ -59,13 +59,13 @@ describe('Check starships integration', function () {
     });
 });
 
-describe('Check persons integration', function () {
+describe('Check persons integration', () => {
     beforeEach(() => {
     });
     afterEach(() => {
         request.get.restore();
     });
-    it('test the single person integration', function (done) {
+    it('test the single person integration', done => {
         const singlePersonUrl = 'https://swapi.co/api/people/2';
         let stub = sinon.stub(request, 'get');
         stub.withArgs(singlePersonUrl).yields(null, okResp, JSON.stringify(testData.singlePersonRespBody));
@@ -86,7 +86,7 @@ describe('Check persons integration', function () {
         });
     });
 
-    it('test the person list integration', function (done) {
+    it('test the person list integration', done => {
         const multiPersonUrl = 'https://swapi.co/api/people';
         let stub = sinon.stub(request, 'get');
         stub.withArgs(multiPersonUrl).yields(null, okResp, JSON.stringify(testData.multiPersonRespBody));
@@ -109,13 +109,13 @@ describe('Check persons integration', function () {
     });
 });
 
-describe('Check planets integration', function () {
+describe('Check planets integration', () => {
     beforeEach(() => {
     });
     afterEach(() => {
         request.get.restore();
     });
-    it('test the single planet integration', function (done) {
+    it('test the single planet integration', done => {
         const singlePlanetUrl = 'https://swapi.co/api/planets/7';
         let stub = sinon.stub(request, 'get');
         stub.withArgs(singlePlanetUrl).yields(null, okResp, JSON.stringify(testData.singlePlanetRespBody));
@@ -136,7 +136,7 @@ describe('Check planets integration', function () {
         });
     });
 
-    it('test the planet list integration', function (done) {
+    it('test the planet list integration', done => {
         const multiPlanetUrl = 'https://swapi.co/api/planets';
         let stub = sinon.stub(request, 'get');
         stub.withArgs(multiPlanetUrl).yields(null, okResp, JSON.stringify(testData.multiPlanetRespBody));

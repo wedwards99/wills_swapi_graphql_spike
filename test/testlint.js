@@ -14,8 +14,7 @@ describe('Smoke test the mocha/chai/sinon install', () => {
         const hair = 'blond';
         const stub = sinon.stub(request, 'get');
         stub.withArgs(url).yields(null, {statusCode: 200, headers: {'content-type': 'application/json'}}, JSON.stringify({name: name, hair_color: hair}));
-        request.get(url,
-            function (error, response, body) {
+        request.get(url, (error, response, body) => {
                 const bodyObj = JSON.parse(body);
                 expect(bodyObj).to.have.property('name').equal(name);
                 expect(bodyObj).to.have.property('hair_color').equal(hair);

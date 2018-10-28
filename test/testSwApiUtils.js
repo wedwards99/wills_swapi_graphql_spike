@@ -9,7 +9,7 @@ chai.use(chaiAsPromised);
 const expect = chai.expect;
 
 describe('Test swApiUtils getSwApiUrl URL construction', () => {
-    describe('Valid constructions', function () {
+    describe('Valid constructions', () => {
         it('should return a URL', (done) => {
             expect(swApiUtils.getSwApiUrl('will', '3')).to.equal('https://swapi.co/api/will/3');
             done();
@@ -20,7 +20,7 @@ describe('Test swApiUtils getSwApiUrl URL construction', () => {
         });
     });
     describe('Invalid constructions', () => {
-        it('should have undefined type in URL', function (done) {
+        it('should have undefined type in URL', done => {
             expect(swApiUtils.getSwApiUrl()).to.equal('https://swapi.co/api/undefined');
             done();
         });

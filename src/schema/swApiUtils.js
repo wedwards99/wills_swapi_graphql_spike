@@ -3,12 +3,12 @@ const request = require('request');
 function makeSwApiRequest(url) {
     let type = getTypeFromUrl(url);
     let id = getIdFromUrl(url);
-    return new Promise(function (resolve, reject) {
-        request.get(url, function (error, res, body) {
+    return new Promise((resolve, reject) => {
+        request.get(url, (error, res, body) => {
             if (!error && res.statusCode === 200) {
                 let respBody = JSON.parse(body);
                 let result;
-                if(id != null) {
+                if (id != null) {
                     result = parseItem(type, id, respBody);
                 } else {
                     result = parseItemArray(type, respBody);

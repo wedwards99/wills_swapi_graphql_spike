@@ -32,7 +32,7 @@ const query = new GraphQLObjectType({
         },
         person_list: {
             type: new GraphQLList(types.personType),
-            resolve: function () {
+            resolve() {
                 let url = swApiUtils.getSwApiUrl('people');
                 return swApiUtils.makeSwApiRequest(url).then(resp => resp);
             }
