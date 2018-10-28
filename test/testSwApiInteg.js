@@ -5,9 +5,9 @@ const request = require('request');
 const graphql = require('graphql').graphql;
 const testData = require('./data/integTestData');
 
-describe('Check starships integration', function () {
-    const okResp = {statusCode: 200, headers: {'content-type': 'application/json'}};
+const okResp = {statusCode: 200, headers: {'content-type': 'application/json'}};
 
+describe('Check starships integration', function () {
     beforeEach(() => {
     });
     afterEach(() => {
@@ -60,8 +60,6 @@ describe('Check starships integration', function () {
 });
 
 describe('Check persons integration', function () {
-    const okResp = {statusCode: 200, headers: {'content-type': 'application/json'}};
-
     beforeEach(() => {
     });
     afterEach(() => {
@@ -103,6 +101,56 @@ describe('Check persons integration', function () {
             expect(result['data']['person_list'][0]).to.have.property('hair_color').to.equal(testData.singlePersonRespBody['hair_color']);
             expect(result['data']['person_list'][0]).to.have.property('films').length(4);
             verifyFilms(result['data']['person_list'][0]['films']);
+            done();
+        }).catch((err) => {
+            console.log(err);
+            done(err);
+        });
+    });
+});
+
+describe('Check planets integration', function () {
+    beforeEach(() => {
+    });
+    afterEach(() => {
+        request.get.restore();
+    });
+    it('test the single planet integration', function (done) {
+        const singlePlanetUrl = 'https://swapi.co/api/planets/7';
+        let stub = sinon.stub(request, 'get');
+        stub.withArgs(singlePlanetUrl).yields(null, okResp, JSON.stringify(testData.singlePlanetRespBody));
+        stub.withArgs(testData.film1Url).yields(null, okResp, JSON.stringify(testData.film1RespBody));
+        stub.withArgs(testData.film2Url).yields(null, okResp, JSON.stringify(testData.film2RespBody));
+        stub.withArgs(testData.film3Url).yields(null, okResp, JSON.stringify(testData.film3RespBody));
+        stub.withArgs(testData.film4Url).yields(null, okResp, JSON.stringify(testData.film4RespBody));
+        graphql(schema, '{planet(id: 7) {id name gravity films {title release_date}}}', global).then((result) => {
+            expect(result).to.have.property('data').to.have.property('planet').to.have.property('id').equal('7');
+            expect(result).to.have.property('data').to.have.property('planet').to.have.property('name').equal(testData.singlePlanetRespBody['name']);
+            expect(result).to.have.property('data').to.have.property('planet').to.have.property('gravity').equal(testData.singlePlanetRespBody['gravity']);
+            expect(result).to.have.property('data').to.have.property('planet').to.have.property('films').length(4);
+            verifyFilms(result['data']['planet']['films']);
+            done();
+        }).catch((err) => {
+            console.log(err);
+            done(err);
+        });
+    });
+
+    it('test the planet list integration', function (done) {
+        const multiPlanetUrl = 'https://swapi.co/api/planets';
+        let stub = sinon.stub(request, 'get');
+        stub.withArgs(multiPlanetUrl).yields(null, okResp, JSON.stringify(testData.multiPlanetRespBody));
+        stub.withArgs(testData.film1Url).yields(null, okResp, JSON.stringify(testData.film1RespBody));
+        stub.withArgs(testData.film2Url).yields(null, okResp, JSON.stringify(testData.film2RespBody));
+        stub.withArgs(testData.film3Url).yields(null, okResp, JSON.stringify(testData.film3RespBody));
+        stub.withArgs(testData.film4Url).yields(null, okResp, JSON.stringify(testData.film4RespBody));
+        graphql(schema, '{planet_list {id name gravity films {title release_date}}}', global).then((result) => {
+            expect(result).to.have.property('data').to.have.property('planet_list').to.have.length(1);
+            expect(result['data']['planet_list'][0]).to.have.property('id').to.equal('7');
+            expect(result['data']['planet_list'][0]).to.have.property('name').to.equal(testData.singlePlanetRespBody['name']);
+            expect(result['data']['planet_list'][0]).to.have.property('gravity').to.equal(testData.singlePlanetRespBody['gravity']);
+            expect(result['data']['planet_list'][0]).to.have.property('films').length(4);
+            verifyFilms(result['data']['planet_list'][0]['films']);
             done();
         }).catch((err) => {
             console.log(err);
