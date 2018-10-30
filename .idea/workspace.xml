@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="475fad94-65c7-473e-ba39-7ee757352028" name="Default Changelist" comment="">
+    <list default="true" id="475fad94-65c7-473e-ba39-7ee757352028" name="Default Changelist" comment="Tidy up.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema/swApiUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/swApiUtils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/data/integTestData.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/integTestData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/testSwApiInteg.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/testSwApiInteg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testSwApiUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/testSwApiUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testlint.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/testlint.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,28 +19,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/swapi_graphql$test_testApp_js.dat" NAME="test\testApp.js Coverage Results" MODIFIED="1540847348899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/swapi_graphql$Test_the_swapi_http_GET_functions_fails_with_invalid_status_code.dat" NAME="Test the swapi http GET functions.fails with invalid status code Coverage Results" MODIFIED="1540668367549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/swapi_graphql$test_testQuery_js.dat" NAME="test\testQuery.js Coverage Results" MODIFIED="1540674418631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/swapi_graphql$All_Tests.dat" NAME="All Tests Coverage Results" MODIFIED="1540767109188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/swapi_graphql$All_Tests.dat" NAME="All Tests Coverage Results" MODIFIED="1540840492233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/swapi_graphql$testSwApiUtils_js.dat" NAME="testSwApiUtils.js Coverage Results" MODIFIED="1540658037928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="468" />
+    <option name="myElementSize" value="486" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-103293641">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="5" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="33" />
+          <entry key="js" value="43" />
           <entry key="json" value="2" />
           <entry key="md" value="2" />
           <entry key="txt" value="3" />
@@ -46,23 +51,23 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="33" />
+          <entry key="JavaScript" value="43" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="4673" />
+          <entry key="js" value="7174" />
           <entry key="md" value="613" />
-          <entry key="txt" value="383" />
+          <entry key="txt" value="391" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="4674" />
+          <entry key="JavaScript" value="7175" />
           <entry key="Markdown" value="612" />
-          <entry key="PLAIN_TEXT" value="383" />
+          <entry key="PLAIN_TEXT" value="391" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -76,19 +81,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/testSwApiInteg.js">
+        <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/data/integTestData.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -96,26 +92,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/testlint.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="14" selection-start-column="2" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/schema/querys.js">
+        <entry file="file://$PROJECT_DIR$/test/testApp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="953">
-              <caret line="88" column="58" selection-start-line="88" selection-start-column="50" selection-end-line="88" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/schema/types.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -123,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/schema/swApiUtils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+            <state relative-caret-position="102">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -149,6 +136,15 @@
       <find>&quot;species&quot;:</find>
       <find>&quot;planets&quot;:</find>
       <find>&quot;</find>
+      <find>function ()</find>
+      <find>function (done)</find>
+      <find>function</find>
+      <find>list graphql()</find>
+      <find>stub</find>
+      <find>Planet</find>
+      <find>Species</find>
+      <find>Check</find>
+      <find>people</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -158,6 +154,11 @@
       <replace>species:</replace>
       <replace>planets:</replace>
       <replace>'</replace>
+      <replace>done</replace>
+      <replace>done =&gt;</replace>
+      <replace>list</replace>
+      <replace>Species</replace>
+      <replace>Vehicle</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -168,16 +169,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test/testtest.js" />
-        <option value="$PROJECT_DIR$/src/schema/querys.js" />
-        <option value="$PROJECT_DIR$/test/testQuery.js" />
         <option value="$PROJECT_DIR$/notes.txt" />
-        <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/Readme.md" />
-        <option value="$PROJECT_DIR$/test/testSwApiUtils.js" />
+        <option value="$PROJECT_DIR$/test/testQuery.js" />
+        <option value="$PROJECT_DIR$/src/schema/querys.js" />
         <option value="$PROJECT_DIR$/test/testlint.js" />
+        <option value="$PROJECT_DIR$/test/testSwApiUtils.js" />
         <option value="$PROJECT_DIR$/test/data/integTestData.js" />
         <option value="$PROJECT_DIR$/test/testSwApiInteg.js" />
         <option value="$PROJECT_DIR$/src/schema/swApiUtils.js" />
+        <option value="$PROJECT_DIR$/test/testApp.js" />
+        <option value="$PROJECT_DIR$/src/app.js" />
       </list>
     </option>
   </component>
@@ -198,8 +200,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="144" />
-    <option name="y" value="56" />
+    <option name="x" value="128" />
+    <option name="y" value="10" />
     <option name="width" value="3530" />
     <option name="height" value="1970" />
   </component>
@@ -230,7 +232,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,6 +265,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.All Tests">
+  <component name="RunManager" selected="Node.js.Star Wars API GraphQL Server">
     <configuration name="Star Wars API GraphQL Server" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/src">
       <method v="2" />
     </configuration>
@@ -311,7 +313,7 @@
       <recursive>true</recursive>
       <method v="2" />
     </configuration>
-    <configuration name="Check persons integration.test the single person integration" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="Check graphql() function integration.Check vehicles graphql() integration.test the vehicles list integration" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -321,12 +323,13 @@
       <test-kind>TEST</test-kind>
       <test-file>$PROJECT_DIR$/test/testSwApiInteg.js</test-file>
       <test-names>
-        <name value="Check persons integration" />
-        <name value="test the single person integration" />
+        <name value="Check graphql() function integration" />
+        <name value="Check vehicles graphql() integration" />
+        <name value="test the vehicles list integration" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Test the swapi makeSwApiRequest functions.returns right content with single film URL" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="Test graphql() function integration.Test films graphql() integration.test the single file integration" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -334,40 +337,47 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/test/testSwApiUtils.js</test-file>
-      <test-names>
-        <name value="Test the swapi makeSwApiRequest functions" />
-        <name value="returns right content with single film URL" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Test the swapi makeSwApiRequest functions.returns right content with single vehicles URL" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/test/testSwApiUtils.js</test-file>
-      <test-names>
-        <name value="Test the swapi makeSwApiRequest functions" />
-        <name value="returns right content with single vehicles URL" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="test\testSwApiInteg.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST_FILE</test-kind>
       <test-file>$PROJECT_DIR$/test/testSwApiInteg.js</test-file>
+      <test-names>
+        <name value="Test graphql() function integration" />
+        <name value="Test films graphql() integration" />
+        <name value="test the single file integration" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="test\testSwApiUtils.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="Test graphql() function integration.Test films graphql() integration.test the single film integration" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/testSwApiInteg.js</test-file>
+      <test-names>
+        <name value="Test graphql() function integration" />
+        <name value="Test films graphql() integration" />
+        <name value="test the single film integration" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test graphql() function integration.Test films graphql() integration.test the vehicles list integration" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/testSwApiInteg.js</test-file>
+      <test-names>
+        <name value="Test graphql() function integration" />
+        <name value="Test films graphql() integration" />
+        <name value="test the vehicles list integration" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test\testApp.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -375,25 +385,25 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>TEST_FILE</test-kind>
-      <test-file>$PROJECT_DIR$/test/testSwApiUtils.js</test-file>
+      <test-file>$PROJECT_DIR$/test/testApp.js</test-file>
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Mocha.All Tests" />
       <item itemvalue="Node.js.Star Wars API GraphQL Server" />
-      <item itemvalue="Mocha.test\testSwApiUtils.js" />
-      <item itemvalue="Mocha.Test the swapi makeSwApiRequest functions.returns right content with single film URL" />
-      <item itemvalue="Mocha.Test the swapi makeSwApiRequest functions.returns right content with single vehicles URL" />
-      <item itemvalue="Mocha.test\testSwApiInteg.js" />
-      <item itemvalue="Mocha.Check persons integration.test the single person integration" />
+      <item itemvalue="Mocha.Check graphql() function integration.Check vehicles graphql() integration.test the vehicles list integration" />
+      <item itemvalue="Mocha.Test graphql() function integration.Test films graphql() integration.test the single file integration" />
+      <item itemvalue="Mocha.Test graphql() function integration.Test films graphql() integration.test the single film integration" />
+      <item itemvalue="Mocha.Test graphql() function integration.Test films graphql() integration.test the vehicles list integration" />
+      <item itemvalue="Mocha.test\testApp.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Mocha.Check persons integration.test the single person integration" />
-        <item itemvalue="Mocha.test\testSwApiInteg.js" />
-        <item itemvalue="Mocha.test\testSwApiUtils.js" />
-        <item itemvalue="Mocha.Test the swapi makeSwApiRequest functions.returns right content with single vehicles URL" />
-        <item itemvalue="Mocha.Test the swapi makeSwApiRequest functions.returns right content with single film URL" />
+        <item itemvalue="Mocha.test\testApp.js" />
+        <item itemvalue="Mocha.Test graphql() function integration.Test films graphql() integration.test the vehicles list integration" />
+        <item itemvalue="Mocha.Test graphql() function integration.Test films graphql() integration.test the single film integration" />
+        <item itemvalue="Mocha.Test graphql() function integration.Test films graphql() integration.test the single file integration" />
+        <item itemvalue="Mocha.Check graphql() function integration.Check vehicles graphql() integration.test the vehicles list integration" />
       </list>
     </recent_temporary>
   </component>
@@ -411,7 +421,11 @@
       <workItem from="1540683926273" duration="330000" />
       <workItem from="1540684271027" duration="407000" />
       <workItem from="1540722832211" duration="9391000" />
-      <workItem from="1540733499249" duration="16039000" />
+      <workItem from="1540733499249" duration="17152000" />
+      <workItem from="1540777993922" duration="115000" />
+      <workItem from="1540812000902" duration="11610000" />
+      <workItem from="1540831652543" duration="9878000" />
+      <workItem from="1540894879573" duration="264000" />
     </task>
     <task id="LOCAL-00001" summary="Add readme.">
       <created>1540680441216</created>
@@ -497,56 +511,69 @@
       <option name="project" value="LOCAL" />
       <updated>1540766126951</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="More tests.">
+      <created>1540767166457</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1540767166457</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Tidy up.">
+      <created>1540768033537</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1540768033537</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_Tests - 2018.10.28 at 17h 35m 33s.xml">
+    <history-entry file="test_testApp_js - 2018.10.29 at 16h 44m 05s.xml">
+      <configuration name="test\testApp.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_testApp_js - 2018.10.29 at 16h 44m 41s.xml">
+      <configuration name="test\testApp.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_testApp_js - 2018.10.29 at 16h 45m 04s.xml">
+      <configuration name="test\testApp.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_testApp_js - 2018.10.29 at 16h 47m 10s.xml">
+      <configuration name="test\testApp.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_testApp_js - 2018.10.29 at 16h 47m 42s.xml">
+      <configuration name="test\testApp.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_testApp_js - 2018.10.30 at 05h 22m 04s.xml">
+      <configuration name="test\testApp.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="All_Tests - 2018.10.30 at 05h 22m 49s.xml">
       <configuration name="All Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="All_Tests - 2018.10.28 at 17h 41m 26s.xml">
+    <history-entry file="All_Tests - 2018.10.30 at 05h 23m 41s.xml">
       <configuration name="All Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="All_Tests - 2018.10.28 at 17h 41m 53s.xml">
+    <history-entry file="All_Tests - 2018.10.30 at 05h 24m 05s.xml">
       <configuration name="All Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="All_Tests - 2018.10.28 at 17h 42m 16s.xml">
-      <configuration name="All Tests" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="All_Tests - 2018.10.28 at 17h 47m 44s.xml">
-      <configuration name="All Tests" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="All_Tests - 2018.10.28 at 17h 47m 55s.xml">
-      <configuration name="All Tests" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="All_Tests - 2018.10.28 at 17h 48m 18s.xml">
-      <configuration name="All Tests" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="All_Tests - 2018.10.28 at 17h 50m 58s.xml">
-      <configuration name="All Tests" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="All_Tests - 2018.10.28 at 17h 51m 18s.xml">
-      <configuration name="All Tests" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="All_Tests - 2018.10.28 at 17h 51m 49s.xml">
+    <history-entry file="All_Tests - 2018.10.30 at 05h 25m 29s.xml">
       <configuration name="All Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54780000" />
+    <option name="totallyTimeSpent" value="77760000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="72" y="28" width="1765" height="985" extended-state="0" />
-    <editor active="true" />
+    <frame x="64" y="5" width="1765" height="985" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2589338" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15905148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49913245" visible="true" weight="0.34855768" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32932693" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49913245" visible="true" weight="0.34855768" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39903846" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -560,7 +587,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="3" weight="0.33626243" />
+      <window_info anchor="right" id="Coverage" order="3" weight="0.34856474" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,7 +605,19 @@
     <MESSAGE value="Fix readme typo." />
     <MESSAGE value="Tidy up some test expectations." />
     <MESSAGE value="More tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="More tests." />
+    <MESSAGE value="Tidy up." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tidy up." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/testlint.js</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/chai-as-promised/lib/chai-as-promised.js">
@@ -608,52 +647,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="17" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testSwApiUtils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="7" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/testQuery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testlint.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/data/integTestData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/swApiUtils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema/querys.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="953">
-          <caret line="88" column="58" selection-start-line="88" selection-start-column="50" selection-end-line="88" selection-end-column="58" />
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -664,10 +661,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/schema/querys.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" column="26" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/integTestData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="190" lean-forward="true" selection-start-line="190" selection-end-line="190" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/testSwApiInteg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
+        <state relative-caret-position="273">
+          <caret line="231" column="61" lean-forward="true" selection-start-line="231" selection-start-column="61" selection-end-line="231" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testSwApiUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testlint.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="14" selection-start-column="2" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/schema/swApiUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="3" />
         </state>
       </provider>
     </entry>

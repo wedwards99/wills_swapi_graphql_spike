@@ -64,10 +64,10 @@ function parseItemArray(type, listRespBody) {
     return results;
 }
 
-function getSwApiUrl(type, item) {
+function getSwApiUrl(type, itemId) {
     let url = 'https://swapi.co/api/' + type;
-    if (item != null) {
-        url += '/' + item;
+    if (itemId != null) {
+        url += '/' + itemId + '/';
     }
     return url;
 }

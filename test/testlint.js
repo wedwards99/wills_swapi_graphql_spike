@@ -9,7 +9,7 @@ describe('Smoke test the mocha/chai/sinon install', () => {
         request.get.restore();
     });
     it('make a stubbed request', (done) => {
-        const url = 'https://swapi.co/api/people/1/';
+        const url = 'https://mocked.swapi.co/api/people/1';
         const name = 'Luke Skywalker';
         const hair = 'blond';
         const stub = sinon.stub(request, 'get');
@@ -18,6 +18,7 @@ describe('Smoke test the mocha/chai/sinon install', () => {
                 const bodyObj = JSON.parse(body);
                 expect(bodyObj).to.have.property('name').equal(name);
                 expect(bodyObj).to.have.property('hair_color').equal(hair);
+                expect(bodyObj).to.not.have.property('eye_color');  // Make sure did't accidentally hit the real swapi
                 expect(response).to.have.property('statusCode').equal(200);
                 done();
             });

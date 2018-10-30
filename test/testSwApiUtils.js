@@ -11,7 +11,7 @@ const expect = chai.expect;
 describe('Test swApiUtils getSwApiUrl URL construction', () => {
     describe('Valid constructions', () => {
         it('should return a URL', (done) => {
-            expect(swApiUtils.getSwApiUrl('will', '3')).to.equal('https://swapi.co/api/will/3');
+            expect(swApiUtils.getSwApiUrl('will', '3')).to.equal('https://swapi.co/api/will/3/');
             done();
         });
         it('should return a itemless URL', (done) => {
