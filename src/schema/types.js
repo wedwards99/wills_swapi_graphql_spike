@@ -1,3 +1,4 @@
+'use strict';
 const swApiUtils = require('./swApiUtils');
 const graphql = require('graphql');
 

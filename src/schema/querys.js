@@ -1,3 +1,4 @@
+'use strict';
 const graphql = require('graphql');
 const types = require('./types');
 const swApiUtils = require('./swApiUtils');

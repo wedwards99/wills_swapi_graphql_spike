@@ -1,3 +1,4 @@
+'use strict';
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 // Define testing data for several films that can be pointed to as 'was in' by starships, people,
 // planets, species and vehicles.
