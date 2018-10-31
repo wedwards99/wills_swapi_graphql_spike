@@ -13,7 +13,7 @@ describe('Smoke test the mocha/chai/sinon install', () => {
         const name = 'Luke Skywalker';
         const hair = 'blond';
         const mock = sinon.mock(request);
-        mock.expects('get').withArgs(url).once().yields(null, {statusCode: 200, headers: {'content-type': 'application/json'}}, JSON.stringify({name: name, hair_color: hair}));
+        mock.expects('get').once().withArgs(url).yields(null, {statusCode: 200, headers: {'content-type': 'application/json'}}, JSON.stringify({name: name, hair_color: hair}));
         request.get(url, (error, response, body) => {
                 const bodyObj = JSON.parse(body);
                 expect(bodyObj).to.have.property('name').equal(name);
