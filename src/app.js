@@ -10,7 +10,6 @@ global.Logger = winston.createLogger({
     format: winston.format.combine(
         winston.format.timestamp(),
         winston.format.splat(),
-        winston.format.simple(),
         winston.format.printf(info => {
             return `${info.timestamp} ${info.level}: ${info.message}`;
         })
