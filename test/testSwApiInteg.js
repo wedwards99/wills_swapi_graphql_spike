@@ -27,7 +27,7 @@ describe('Test graphql() function integration', () => {
                 verifyFilms(result['data']['ship']['films']);
                 done();
             }).catch((err) => {
-                console.log(err);
+                Logger.error(err.stack);
                 done(err);
             });
         });
@@ -43,7 +43,7 @@ describe('Test graphql() function integration', () => {
                 verifyFilms(result['data']['ship_list'][0]['films']);
                 done();
             }).catch((err) => {
-                console.log(err);
+                Logger.error(err.stack);
                 done(err);
             });
         });
@@ -65,7 +65,7 @@ describe('Test graphql() function integration', () => {
                 verifyFilms(result['data']['person']['films']);
                 done();
             }).catch((err) => {
-                console.log(err);
+                Logger.error(err.stack);
                 done(err);
             });
         });
@@ -80,7 +80,7 @@ describe('Test graphql() function integration', () => {
                 verifyFilms(result['data']['person_list'][0]['films']);
                 done();
             }).catch((err) => {
-                console.log(err);
+                Logger.error(err.stack);
                 done(err);
             });
         });
@@ -102,7 +102,7 @@ describe('Test graphql() function integration', () => {
                 verifyFilms(result['data']['planet']['films']);
                 done();
             }).catch((err) => {
-                console.log(err);
+                Logger.error(err.stack);
                 done(err);
             });
         });
@@ -117,7 +117,7 @@ describe('Test graphql() function integration', () => {
                 verifyFilms(result['data']['planet_list'][0]['films']);
                 done();
             }).catch((err) => {
-                console.log(err);
+                Logger.error(err.stack);
                 done(err);
             });
         });
@@ -138,7 +138,7 @@ describe('Test graphql() function integration', () => {
                 verifyFilms(result['data']['species']['films']);
                 done();
             }).catch((err) => {
-                console.log(err);
+                Logger.error(err.stack);
                 done(err);
             });
         });
@@ -153,7 +153,7 @@ describe('Test graphql() function integration', () => {
                 verifyFilms(result['data']['species_list'][0]['films']);
                 done();
             }).catch((err) => {
-                console.log(err);
+                Logger.error(err.stack);
                 done(err);
             });
         });
@@ -175,7 +175,7 @@ describe('Test graphql() function integration', () => {
                 verifyFilms(result['data']['vehicle']['films']);
                 done();
             }).catch((err) => {
-                console.log(err);
+                Logger.error(err.stack);
                 done(err);
             });
         });
@@ -190,7 +190,7 @@ describe('Test graphql() function integration', () => {
                 verifyFilms(result['data']['vehicle_list'][0]['films']);
                 done();
             }).catch((err) => {
-                console.log(err);
+                Logger.error(err.stack);
                 done(err);
             });
         });
@@ -218,7 +218,7 @@ describe('Test graphql() function integration', () => {
                 expect(result['data']['film']['people'][2]).to.have.property('name').equal(testData.person3RespBody['name']);
                 done();
             }).catch((err) => {
-                console.log(err);
+                Logger.error(err.stack);
                 done(err);
             });
         });
@@ -241,7 +241,7 @@ describe('Test graphql() function integration', () => {
                 expect(characterArray[2]).to.have.property('name').equal(testData.person3RespBody['name']);
                 done();
             }).catch((err) => {
-                console.log(err);
+                Logger.error(err.stack);
                 done(err);
             });
         });

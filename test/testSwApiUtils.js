@@ -69,7 +69,7 @@ describe('Test the swapi makeSwApiRequest functions', () => {
                 done();
             }
         ).catch((err) => {
-            console.error(err);
+            Logger.error(err.stack);
             done(err);
         })
     });

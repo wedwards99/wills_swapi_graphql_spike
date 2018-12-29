@@ -12,7 +12,7 @@ function start(listenPort) {
         graphiql: true
     }));
     server = app.listen(listenPort, () => {
-        console.log('listening use: http://localhost:' + listenPort + '/graphql');
+        Logger.info('listening use: http://localhost:' + listenPort + '/graphql');
     });
 }
 
@@ -22,5 +22,5 @@ function stop() {
 
 module.exports = {
     start: start,
-    stop: stop
+    stop: stop,
 };

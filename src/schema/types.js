@@ -23,6 +23,7 @@ const shipType = new GraphQLObjectType({
     })
 });
 
+
 const personType = new GraphQLObjectType({
     name: 'Person',
     fields: () => ({
