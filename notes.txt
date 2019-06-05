@@ -8,8 +8,6 @@ npm install sinon
 npm install sinon-chai
 npm install chai-as-promised
 
-https://blog.jetbrains.com/webstorm/2013/11/webstorm-7-0-2-is-available/ // Plus youtube video including adding: languages & Frameworks -> javascript -> lib definitions for node, mocha, sinon-chai, etc.
-
 Some graphical queries
 {
   ship(id: 10) {
