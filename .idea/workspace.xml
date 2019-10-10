@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="475fad94-65c7-473e-ba39-7ee757352028" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="737" column="25" lean-forward="true" selection-start-line="737" selection-start-column="25" selection-end-line="737" selection-end-column="25" />
+            <state relative-caret-position="12529">
+              <caret line="737" column="25" selection-start-line="737" selection-start-column="25" selection-end-line="737" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -74,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -206,6 +206,7 @@
     <option name="width" value="3530" />
     <option name="height" value="1970" />
   </component>
+  <component name="ProjectId" id="1S1ZFImMksjomimrubv8FzrPoeg" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -233,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,7 +273,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -448,7 +449,8 @@
       <workItem from="1554584365632" duration="130000" />
       <workItem from="1556709642270" duration="3046000" />
       <workItem from="1556795712546" duration="26000" />
-      <workItem from="1559770730399" duration="1070000" />
+      <workItem from="1559770730399" duration="1471000" />
+      <workItem from="1560356934974" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="Add readme.">
       <created>1540680441216</created>
@@ -611,13 +613,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559771715043</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="remove node_modules from github">
+      <created>1559772025341</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1559772025341</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update .gitignore">
+      <created>1559772104593</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1559772104593</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_Tests - 2018.11.05 at 09h 50m 34s.xml">
-      <configuration name="All Tests" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="All_Tests - 2018.12.27 at 11h 10m 05s.xml">
       <configuration name="All Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
@@ -645,15 +658,18 @@
     <history-entry file="All_Tests - 2019.06.05 at 16h 43m 13s.xml">
       <configuration name="All Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="All_Tests - 2019.06.05 at 17h 02m 14s.xml">
+      <configuration name="All Tests" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136305000" />
+    <option name="totallyTimeSpent" value="136734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="5" width="1765" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979339" visible="true" weight="0.19317524" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979339" visible="true" weight="0.19317524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.50206614" side_tool="true" weight="0.18629174" />
       <window_info id="DB Browser" order="3" />
@@ -666,7 +682,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32932693" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32932693" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49971083" weight="0.32932693" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50086755" side_tool="true" weight="0.38822114" />
@@ -708,7 +724,9 @@
     <MESSAGE value="Trigger a build" />
     <MESSAGE value="Upgrade packages" />
     <MESSAGE value="audit packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="audit packages" />
+    <MESSAGE value="remove node_modules from github" />
+    <MESSAGE value="update .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update .gitignore" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/chai-as-promised/lib/chai-as-promised.js">
@@ -827,6 +845,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12529">
+          <caret line="737" column="25" selection-start-line="737" selection-start-column="25" selection-end-line="737" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -862,24 +894,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="737" column="25" lean-forward="true" selection-start-line="737" selection-start-column="25" selection-end-line="737" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
