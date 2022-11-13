@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="475fad94-65c7-473e-ba39-7ee757352028" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+    <list default="true" id="475fad94-65c7-473e-ba39-7ee757352028" name="Default Changelist" comment="update deps from audit fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
@@ -33,11 +34,14 @@
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Notes.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lint/lint.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lint/testApptest.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1S1ZFImMksjomimrubv8FzrPoeg" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -60,35 +64,27 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/EPP/swapi_graphql/test/testtest.js" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.13.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.20.11" />
-    <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Projects/awsStuff/repos/osano-admin-webservice" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projects/inirv/mqtt-logging-service&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\EPP\swapi_graphql" />
@@ -98,7 +94,7 @@
       <recent name="C:\EPP\swapi_graphql\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Mocha.All Tests">
+  <component name="RunManager" selected="Node.js.Star Wars API GraphQL Server">
     <configuration name="Star Wars API GraphQL Server" type="NodeJSConfigurationType" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/src">
       <method v="2" />
     </configuration>
@@ -255,6 +251,27 @@
       <workItem from="1620138771280" duration="300000" />
       <workItem from="1620139138075" duration="594000" />
       <workItem from="1620341343236" duration="256000" />
+      <workItem from="1620341933179" duration="120000" />
+      <workItem from="1620491401662" duration="386000" />
+      <workItem from="1620491820852" duration="298000" />
+      <workItem from="1620492138588" duration="209000" />
+      <workItem from="1620492376273" duration="140000" />
+      <workItem from="1620492533756" duration="50000" />
+      <workItem from="1620492599049" duration="60000" />
+      <workItem from="1620492683817" duration="95000" />
+      <workItem from="1626538497257" duration="41000" />
+      <workItem from="1626538703339" duration="486000" />
+      <workItem from="1628097440681" duration="12000" />
+      <workItem from="1636892012954" duration="31000" />
+      <workItem from="1645018192956" duration="1020000" />
+      <workItem from="1645019668839" duration="2302000" />
+      <workItem from="1645033413691" duration="311000" />
+      <workItem from="1645104848697" duration="53000" />
+      <workItem from="1647696018694" duration="659000" />
+      <workItem from="1648209985873" duration="640000" />
+      <workItem from="1650467684548" duration="480000" />
+      <workItem from="1650468961915" duration="23000" />
+      <workItem from="1668349794803" duration="661000" />
     </task>
     <task id="LOCAL-00001" summary="Add readme.">
       <created>1540680441216</created>
@@ -438,7 +455,28 @@
       <option name="project" value="LOCAL" />
       <updated>1570733208772</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="update deps from audit fix">
+      <created>1620342032657</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1620342032657</updated>
+    </task>
+    <task id="LOCAL-00028" summary="update deps from audit fix">
+      <created>1645022007457</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1645022007457</updated>
+    </task>
+    <task id="LOCAL-00029" summary="update deps from audit fix">
+      <created>1645023112983</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1645023112983</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,12 +497,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add readme." />
@@ -487,5 +530,9 @@
     <MESSAGE value="update .gitignore" />
     <MESSAGE value="update deps from audit fix" />
     <option name="LAST_COMMIT_MESSAGE" value="update deps from audit fix" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
